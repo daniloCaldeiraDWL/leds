@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+/* agency */
+ .team-member {
+  margin-bottom: 50px;
+  text-align: center; }
+  .team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff; }
+  .team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  .team-member p {
+    margin-top: 0; }
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff; }
+    #portfolio .portfolio-item .portfolio-caption h4 {
+      margin: 0;
+      text-transform: none; }
+    #portfolio .portfolio-item .portfolio-caption p {
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+section#publicacoes {
+   background: #defedc;
+}
+section#team {
+   background: #defedc;
+}
+      
+section#contact2 {
+  background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+  section#contact2 .section-heading {
+    color: #fff; }
+  section#contact2 .section-subheading {
+    color: #fff; }
+
+ul.social-buttons {
+  margin-bottom: 0; }
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529; }
+    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+      background-color: #fed136; }
+    
+/* new-age */
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #368a17, #06184a); }
+
+  header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center; }
+    header.masthead .header-content h1 {
+      font-size: 30px; }
+  header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto; }
+    header.masthead .device-container .screen img {
+      border-radius: 3px; }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 775px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      header.masthead .header-content {
+        margin-bottom: 0;
+        text-align: left; }
+        header.masthead .header-content h1 {
+          font-size: 50px; }
+      header.masthead .device-container {
+        max-width: 525px; } }
+        
+.btn-outline2 {
+  font-size: 20px;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  color: #18BC9C;
+  border: solid 2px #18BC9C;
+  background: transparent; }
+  .btn-outline2.active, .btn-outline2:active, .btn-outline2:focus, .btn-outline2:hover {
+    color: #18BC9C;
+    border: solid 2px white;
+    background: white; }
